@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arvo', serif;
+    background: #1D2834;
+    text-align: start;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: #253541;
+    border:0px solid #2C3E4E;
+    width: 70%;
+}
+
+.pass {
+    font-weight: 100;
+    background-color: #253441;
+    border-radius: 10px;
+    padding: 10px 70px;
+    margin: 10px 25px;
+    color: #51D990;
+}
+
+.generation {
+    margin-top: 0px;
+    font-size: 15px;
+    color: #AFC0C0;
+}
+
+#LabelText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 55px;
+}
+
+#GenText {
+    font-size: 60px;
+    font-weight: bold;
+    color: #F1F3F4;
+    margin-bottom: 0px;
+}
+
+#RandomPasText {
+    font-size: 60px;
+    margin: 0px;
+    color: #51D990;
+}
+
+#SloganText {
+    margin-top: 15px;
+    color: #AFC0C0;
+}
+
+#generate {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    background: #51D990;
+    border: none;
+    border-bottom: 6px solid #0F151A;
+    border-left: 2px solid #0F151A;
+    border-right: 2px solid #0F151A;
+    border-radius: 9px;
+    color: #F1F3F4;
+    text-shadow: 1px 3px 1px #0F151A;
+    font-family: inherit;
+}
+
+#passwords {
+    display: flex;
+    justify-content: center;
+}
+
+
