@@ -67,9 +67,49 @@ hr {
     font-family: inherit;
 }
 
+[type="checkbox"] {
+    opacity: 0;
+}
+
+[type="checkbox"] + label{
+    position: absolute;
+    padding: 27px 27px;
+    cursor: pointer;
+    display: inline;
+    border: 2px solid #51D990;
+    border-radius: 3px;
+} 
+
+[type="checkbox"] + label::after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+    filter: alpha(opacity=0);
+    opacity: 0; 
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    background:#51D990; 
+    border-radius: 3px;
+}
+
+[type="checkbox"]:checked + label::after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+#label {
+    margin-left: 70px;
+    color: #51D990;
+    font-size: 23px;
+}
+
 #generate:hover {
-    font-size: 45px;
-    padding: 19px 40px;
+    border-bottom: 6px solid #1D864E;
+    border-left: 2px solid #1D864E;
+    border-right: 2px solid #1D864E;
 }
 
 #passwords {
