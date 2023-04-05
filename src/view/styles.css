@@ -68,6 +68,11 @@ hr {
     font-family: inherit;
 }
 
+#generate:hover {
+    font-size: 45px;
+    padding: 19px 40px;
+}
+
 #passwords {
     display: flex;
     justify-content: center;
