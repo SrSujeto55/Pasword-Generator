@@ -33,12 +33,22 @@
 
                 <div>
                     <h2 class="pass" id="pass_1">GENERIC-PASWORD_1</h2>
-                    <h3 class="generation"> >> first Gen</h3>
+                    <div class="tooltip">
+                        <button class="generation" onclick="copy('L')" onmouseout="outFnc()">
+                            <span class="tooltiptext" id="myTooltip1">Copy to clipboard</span>
+                            Click to copy
+                        </button>
+                    </div>
                 </div>
                 
                 <div>
                     <h2 class="pass" id="pass_2">GENERIC-PASWORD_2</h2>
-                    <h3 class="generation"> >> sencond Gen </h3>
+                    <div class="tooltip">
+                        <button class="generation" onclick="copy('R')" onmouseout="outFnc()">
+                            <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
+                            Click to copy 
+                        </button>
+                    </div>
                 </div>
 
             </div>
