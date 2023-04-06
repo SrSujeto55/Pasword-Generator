@@ -65,6 +65,7 @@ function getVal() {
         inputData.textContent = "15";
         console.log("FATAL ERROR, NOT A NUMBER");
         errorText.textContent = "Not a number. Using default length (15)";
+        inputLength = 15;
 
     }else if(inputData > 50){
         errorText.textContent = "Dangerous length, using MaxLength (50)";
