@@ -27,10 +27,17 @@
                     <label for="specialist"></label>
                     <label for="specialist" id="label">Include special characters</label>
             </div>
-            
-                <hr id="Separator" />
-            <div id="passwords">
 
+            <div>
+                <input type="text" placeholder="15" id="inputLength" maxlength="2" onblur="getVal()">
+                <label for="inputLength" id="PassLength"> Password Lenght </label>
+                <p id="ErrorText"></p>
+            </div>
+
+                <hr id="Separator" />
+
+            <div id="passwords">
+                
                 <div>
                     <h2 class="pass" id="pass_1">GENERIC-PASWORD_1</h2>
                     <div class="tooltip">
